@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrae — Empower the Future</title>
+    <style>
+        /* Laser-Focused Base */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #FFFFFF;
+            color: #000000;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Atomic Branding */
+        .branding {
+            position: fixed;
+            top: 24px;
+            left: 24px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            z-index: 1000;
+        }
+        .logo { 
+            height: 100%;
+        }
+        .corner-text {
+            font-weight: 700;
+            font-size: 16px;
+            letter-spacing: 0.05em;
+        }
+
+        /* Surgical Sections */
+        section {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 5vw;
+            text-align: center;
+        }
+
+        /* Typography as Weapon */
+        h1 {
+            font-weight: 900;
+            font-size: clamp(2rem, 6vw, 3.5rem);
+            letter-spacing: -0.025em;
+            line-height: 1.1;
+            margin-bottom: 1.25rem;
+        }
+        h2 {
+            font-weight: 700;
+            font-size: 1.25rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: 3rem;
+        }
+        p {
+            max-width: 480px;
+            font-weight: 400;
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+        .pillar {
+            margin-bottom: 4rem;
+            max-width: 380px;
+        }
+        .pillar-title {
+            font-weight: 650;
+            font-size: 1rem;
+            letter-spacing: 0.08em;
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+        }
+        .pillar-desc {
+            line-height: 1.6;
+            opacity: 0.8;
+        }
+
+        /* Invisible Footer */
+        footer {
+            padding: 4rem 1rem;
+            text-align: center;
+            font-weight: 350;
+            font-size: 0.7rem;
+            letter-spacing: 0.03em;
+            opacity: 0.4;
+        }
+
+        @media (max-width: 768px) {
+            .branding { 
+                top: 18px; 
+                left: 18px; 
+                height: 26px; 
+                gap: 8px;
+            }
+            .corner-text {
+                font-size: 14px;
+            }
+            h2 { margin-bottom: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Precision Branding - Logo + Text -->
+    <div class="branding">
+        <img src="boxes.png" alt="Astrae Holdings" class="logo">
+        <div class="corner-text">ASTRAE HOLDINGS</div>
+    </div>
+
+    <!-- Heroic Minimalism -->
+    <section class="hero">
+        <h1>EMPOWER THE<br>FUTURE.</h1>
+        <p>Building tomorrow's infrastructure<br>through technology and capital</p>
+    </section>
+
+    <!-- Strategic Clarity -->
+    <section class="ventures">
+        <h2>Ventures</h2>
+        
+        <div class="pillar">
+            <div class="pillar-title">Technology</div>
+            <p class="pillar-desc">Foundational software systems that power enterprises and redefine human-machine collaboration.</p>
+        </div>
+        
+        <div class="pillar">
+            <div class="pillar-title">Real Assets</div>
+            <p class="pillar-desc">Architecting physical spaces that anticipate next-century living and working needs.</p>
+        </div>
+        
+        <div class="pillar">
+            <div class="pillar-title">Astrae Solutions</div>
+            <p class="pillar-desc">Capital and technology applied to systemic challenges through proprietary frameworks.</p>
+        </div>
+    </section>
+
+    <!-- Silent Presence -->
+    <footer>
+        ASTRAE HOLDINGS · EST. 2020 · LOS ANGELES
+    </footer>
+</body>
+</html>
